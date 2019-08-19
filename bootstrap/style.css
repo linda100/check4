@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+}
+
+
+.sec3 .red
+{
+    background-color: red;
+   
+}
+.red
+{
+    background-color: red;
+}
+
+.green
+{
+    background-color: green;
+}
+
+.sec2
+{
+    text-align: center;
+}
+.sec1
+{
+    display: flex;
+}
+
+
+
+.sec1>h3
+{
+    margin-left: 250px;
+}
+
+.blue
+{
+    background-color: blue;
+    height: 655px;
+}
+.yellow
+{
+    background-color: yellow;
+   
+}
+.sec3 .yellow
+{
+    background-color:yellow;
+    height: 33vh;
+   
+}
+.container
+{
+    display: inline;
+    height: max-content;
+}
+.box
+{  height: 40%;
+    width: auto;
+    background-color: red;
+    margin-left:5%;
+}
+
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .container  {
+      display:flex;
+    }
+    .box
+    {
+        height: 400px;
+        width: 400px;
+    }
+    
+  }
